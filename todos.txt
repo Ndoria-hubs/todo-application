@@ -1,0 +1,13 @@
+Todos application:
+1. view all Todos : GET
+2. view more details of each Todos: GET
+3. update an existing todo: PUT/PATCH
+4. Delete an existing todo: DELETE
+5. Create.add a new todo item: POST
+
+
+
+Concepts:
+
+
+

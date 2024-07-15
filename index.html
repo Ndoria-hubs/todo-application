@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>TODO APP</h1>
+    <!-- form for creating new todo -->
+    <form id="create-form">
+        <label>New todo</label>
+        <input id="create-title" type="text" name="create-title" placeholder="going to space">
+        <button>Create</button>
+    </form>
+    <!-- form for updating new todo -->
+    <form id="update-form">
+        <label>Update todo</label>
+        <input id="update-title" type="text" name="update-title" placeholder="going to space">
+        <button>Update</button>
+    </form>
+
+    <!-- for displaying all created todos -->
+    <section id="todos-section"></section>
+
+    <!-- for displaying additional details for each todo -->
+    <section id="single-todo-section"></section>
+
+    <script src="index.js"></script>
 </body>
 </html>
